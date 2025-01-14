@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khadibv - Sign Up</title>
+    <link rel="stylesheet" href="/public/css/style2.css">
+    <link rel="icon" type="image/x-icon" href="/public/images/logo4.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/public/images/logo4.png" alt="Khadibv Logo">
+            <h1>KhadiBV</h1>
+            <p style="color: beige;">Sustainable Design - Proudly Indian</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="signup-container">
+            <h2>Create an Account</h2>
+            <form id="signup-form" action="/signup" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirmpassword" required>
+
+                <button type="submit">Sign Up</button>
+
+                <p class="login-text">Already have an account? <a href="/login">Login here</a></p>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Khadibv | Made with Passion and Khadi</p>
+    </footer>
+
+    <script src="/public/js/script2.js"></script>
+</body>
+</html>
+
